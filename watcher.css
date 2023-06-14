@@ -24,3 +24,12 @@ h1,h2,h3,h4,h5,h6{font:Georgia; font-weight:400; margin:10px 0}
 /*Text Colors*/
 .watcher-text-black,.watcher-hover-text-black:hover{color:#000!important}
 .watcher-text-white,.watcher-hover-text-white:hover{color:#fff!important}
+
+/*Header Bar*/
+header{
+    background: #52307c
+}
+
+
+/*Container*/
+.watcher-container{width:80%; margin:0 auto}
