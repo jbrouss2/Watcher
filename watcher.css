@@ -29,7 +29,14 @@ h1,h2,h3,h4,h5,h6{font:Georgia; font-weight:400; margin:10px 0}
 header{
     background: #52307c
 }
+.nav-links{
+    text-decoration: none;
+    color:#fff
+}
 
+.nav-links:hover{
+    text-decoration: underline;
+}
 
 /*Container*/
 .watcher-container{width:80%; margin:0 auto}
