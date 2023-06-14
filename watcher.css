@@ -16,3 +16,11 @@ h1,h2,h3,h4,h5,h6{font:Georgia; font-weight:400; margin:10px 0}
 
 /*Padding*/
 .watcher-padding-12{padding-top:6px!important;padding-bottom:6px!important}
+
+/*Background*/
+.watcher-gradient{background: rgb(111,22,255);
+    background: linear-gradient(90deg, rgba(111,22,255,0.9417892156862745) 35%, rgba(173,0,252,1) 100%);}
+
+/*Text Colors*/
+.watcher-text-black,.watcher-hover-text-black:hover{color:#000!important}
+.watcher-text-white,.watcher-hover-text-white:hover{color:#fff!important}
