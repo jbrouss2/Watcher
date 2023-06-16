@@ -4,7 +4,9 @@
 .watcher-right-align{text-align:right!important}
 
 /*Changing the font/font family*/
-html, body{font-family:Georgia; font-size:14px; line-height:1.5}
+@font-face{font-family: 'RustyHooks'; src: url(fonts/RustyHooksRegular-nROER.ttf)}
+@font-face{font-family: "SunnySpells"; src: url(fonts/SunnyspellsRegular-MV9ze.otf)}
+html, body{font-family: Lucida Sans; font-size:14px; line-height:1.5}
 html{overflow-x:hidden}
 h1{font-size:36px}
 h2{font-size:30px}
@@ -12,13 +14,9 @@ h3{font-size:24px}
 h4{font-size:20px}
 h5{font-size:18px}
 h6{font-size:16px}
-h1,h2,h3,h4,h5,h6{font:Georgia; font-weight:400; margin:10px 0}
-
-/*Custom Font*/
-@font-face{font-family: RustyHooks; src: url(https://www.fontspace.com/rusty-hooks-font-f87577)}
-h7{font-family: RustyHooks; font-size:32px;}
-@font-face{font-family: SunnySpells; src: url('https://www.fontspace.com/sunny-spells-font-f68393')}
-h8{font-family: SunnySpells; font-size:32px;}
+h1,h2,h3,h4,h5,h6{font-family: RustyHooks; font-weight:400; margin:10px 0}
+h7{font-family: SunnySpells; font: size 40px;}
+h8{font-family: Lucida Sans; font-size: 12px;}
 
 /*Padding*/
 .watcher-padding-12{padding-top:6px!important;padding-bottom:6px!important}
