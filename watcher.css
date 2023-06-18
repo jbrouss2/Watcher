@@ -80,7 +80,7 @@ nav a:hover::before{
     float: left;
     padding: 10px 0;
     height: 60px;
-    width: 100px;
+    width: 60px;
 }
 
 /*Container*/
