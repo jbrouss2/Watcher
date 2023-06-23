@@ -16,6 +16,8 @@ h6{font-size:16px}
 h1,h2,h3,h4,h5,h6{font-family: RustyHooks; font-weight:400; margin:10px 0}
 h7{font-family: SunnySpells; font-size: 30px;}
 h8{font-family: Lucida Sans; font-size: 12px;}
+RHCustom{font-family: RustyHooks; font-size:14px;}
+SSCustom{font-family: SunnySpells; font-size: 14px;}
 
 /*Padding*/
 .watcher-padding-12{padding-top:6px!important;padding-bottom:6px!important}
@@ -168,4 +170,11 @@ footer{
 }
 #accordion label + input[type="radio"]:checked + .content{
     max-height: 400px;
+}
+
+/*Changing Links Color*/
+a:link{
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
 }
