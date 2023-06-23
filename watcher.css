@@ -178,3 +178,33 @@ a:link{
     background-color: transparent;
     text-decoration: none;
 }
+
+/*Contact Form*/
+.watcher-email-container{
+    background: #52307c;
+    width:30%; 
+    margin:50px auto;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+    background: #52307c;
+    border:#3a9bdc;
+    color: #fff; 
+}
+input,select,textarea{
+    padding: 1.4rem;
+    background: transparent;
+    border: 1px #3a9bdc;
+}
+button{
+    background:#3a9bdc;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+}
