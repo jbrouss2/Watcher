@@ -171,8 +171,7 @@ footer{
 #accordion label + input[type="radio"]:checked + .content{
     max-height: 400px;
 }
-
-/*Changing Links Color*/
+/*Changing Link Color within Accordion*/
 #accordion .content a{
     color: #c264ff;
     background-color: transparent;
