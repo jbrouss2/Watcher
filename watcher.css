@@ -173,37 +173,55 @@ footer{
 }
 
 /*Changing Links Color*/
-a:link{
-    color: #fff;
+#accordion .content a{
+    color: #c264ff;
     background-color: transparent;
     text-decoration: none;
 }
 
 /*Contact Form*/
-.watcher-email-container{
-    background: #52307c;
-    width:30%; 
-    margin:50px auto;
+form { max-width:420px; 
+    margin:50px auto; 
 }
-form{
-    display:flex;
-    flex-direction: column;
-    width: 24rem;
-    gap: 1rem;
-    border:#3a9bdc;
-    color: #fff; 
+
+.feedback-input {
+  color:white;
+  font-family: 'Lucida Sans';
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 4px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #3a9bdc;
+  transition: all 0.3s;
+  padding: 14px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;background: #52307c;
 }
-input,select,textarea{
-    padding: 1.4rem;
-    background: transparent;
-    border: 1px #3a9bdc;
+
+.feedback-input:focus { border:2px solid #3a9bdc; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
 }
-button{
-    background:#3a9bdc;
-    width: 100px;
-    border: none;
-    outline: none;
-    color: #fff;
-    height: 35px;
-    border-radius: 30px;
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#3a9bdc;
+  border-radius:4px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
 }
+[type="submit"]:hover { background:#3a9bdc; }
