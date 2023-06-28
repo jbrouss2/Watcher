@@ -100,14 +100,19 @@ nav a:hover::before{
 }
 
   /* Clear floats after the columns */
-  .watcher-row:after {
+.watcher-row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
+.watcher-column a{
+    color: #3a9bdc;
+    background-color: transparent;
+    text-decoration: none;
+}
 
   /*Getting bullet points to be by the text*/
-  ul {
+ul {
     text-align: center;
     list-style-position: inside;
 }
