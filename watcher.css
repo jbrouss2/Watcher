@@ -245,6 +245,7 @@ textarea {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    text-transform: uppercase;
   }
   .watcher-button:hover{
     background-color: white;
