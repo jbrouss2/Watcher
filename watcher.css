@@ -252,3 +252,26 @@ textarea {
     color:#3a9bdc;
     border: 2px solid #3a9bdc;
   }
+
+  /*Multiple Columns - Chat GPT help*/
+  .watcher-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .watcher-sub-column {
+    flex-basis: calc(33.33% - 10px);
+    margin: 5px;
+  }
+  .main-column {
+    padding: 10px;
+    text-align: center;
+  }
+  .sub-column {
+    display: flex;
+    text-align: center;
+  }
+  .sub-sub-column {
+    flex-basis: 50%;
+    padding: 10px;
+    margin-right: 5px;
+  }
