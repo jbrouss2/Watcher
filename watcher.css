@@ -207,7 +207,8 @@ form { max-width:420px;
   margin-bottom: 15px;
   width:100%;
   box-sizing: border-box;
-  outline:0;background: #52307c;
+  outline:0;
+  background: #52307c;
 }
 
 .feedback-input:focus { border:2px solid #3a9bdc; }
@@ -260,11 +261,13 @@ textarea {
   }
   .watcher-sub-column {
     flex-basis: calc(33.33% - 10px);
-    margin: 5px;
+    margin: 4px;
+    border: 1px solid #3a9bdc;
   }
   .main-column {
     padding: 10px;
-    text-align: center;
+    text-align: center; 
+    border: 1px solid #3a9bdc;
   }
   .sub-column {
     display: flex;
